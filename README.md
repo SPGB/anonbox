@@ -21,5 +21,3 @@ Anon box will scan an imageboard for threads, compile it into a list of threads,
 		
 	click save and anon box will get to work. 
 	To quickly get to your anon box folder minimize the program and click "Open AnonBox Folder" from the system tray.
-	
-## WHAT AM I
