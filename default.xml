@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<sites>
+<SITE7chan.org>
+	<thread>
+		<threadidentifier>res/</threadidentifier>
+		<needle>返信&lt;/a&gt;</needle>
+		<tail>.html</tail>
+		<urlappend>1.html</urlappend>
+		<beforeBody>&lt;p class="message"&gt;</beforeBody>
+		<afterBody>&lt;/p&gt;</afterBody>
+	</thread>
+	<file>
+		<beforefile>target="_blank" href="</beforefile>
+		<afterfile>"</afterfile>
+		<urlprepend></urlprepend>
+	</file>
+</SITE7chan.org>	
+<SITEboards.420chan.org>
+	<thread>
+		<threadidentifier>res/</threadidentifier>
+		<needle>.php"&gt; </needle>
+		<tail>.php</tail>
+		<urlappend>1.php</urlappend>
+		<beforeBody>&lt;blockquote</beforeBody>
+		<afterBody>&lt;/blockquote&gt;</afterBody>
+	</thread>
+	<file>
+		<beforefile>href="</beforefile>
+		<afterfile>"</afterfile>
+		<urlprepend></urlprepend>
+	</file>
+</SITEboards.420chan.org>	
+<SITEboards.4chan.org>
+	<thread>
+		<threadidentifier>res/</threadidentifier>
+		<needle>Reply&lt;/a&gt;</needle>
+		<tail>.html</tail>
+		<urlappend>.html</urlappend>
+		<beforeBody>&lt;blockquote&gt;</beforeBody>
+		<afterBody>&lt;/blockquote&gt;</afterBody>
+	</thread>
+	<file>
+		<beforefile>images.4chan.org</beforefile>
+		<afterfile>"</afterfile>
+		<urlprepend>http://images.4chan.org</urlprepend>
+	</file>
+</SITEboards.4chan.org>	
+</sites>
